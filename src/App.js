@@ -28,7 +28,7 @@ function App() {
     <>
       <div style={{backgroundColor:color,height:'100vh'}} className='d-flex flex-column align-items-center justify-content-center'>
       <div className="d-flex align-items-center justify-content-center">
-         <h1 style={{color:'white'}}>Background Color Changer App</h1>
+         <h1 style={{color:'white',fontFamily:''}}>Background Color Changer App</h1>
          </div>
       <div style={{gap:'20px'}} className="d-flex align-items-center justify-content-center m-5">
       <button style={{backgroundColor:'#87CEEB',width:'120px'}} onClick={changeColor} className='btn btn-outline-light'>SkyBlue</button>
